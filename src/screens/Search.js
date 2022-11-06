@@ -17,6 +17,7 @@ import {getStatusBarHeight} from 'react-native-status-bar-height';
 import {white, orange, yellow, black, lightGray} from '../helpers/Color';
 import {Icon, Image} from 'react-native-elements/';
 import {genres} from '../helpers/Genres';
+import Colors from '../helpers/Colors';
 
 const Container = ({children}) => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -47,7 +48,6 @@ class Search extends Component {
     data: [],
   };
   getData = text => {
-    const page = this.state.page;
     const {type} = this.props.route.params;
 
     fetch(
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
   titleBar: {
     width: 40,
     height: 5,
-    backgroundColor: orange,
+    backgroundColor: Colors.blue,
     marginTop: 4,
     alignSelf: 'center',
   },

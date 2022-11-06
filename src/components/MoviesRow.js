@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import {Image} from 'react-native-elements';
 import {normalize} from '../../src/helpers/fontSize';
+import Colors from '../helpers/Colors';
 
 const MoviesRow = ({data, title,type,navigation}) => {
   return (
@@ -72,6 +73,6 @@ const styles = StyleSheet.create({
     marginBottom: 0,
     fontFamily: 'Montserrat-SemiBold',
     alignSelf: 'flex-end',
-    color: 'red',
+    color: Colors.blue,
   },
 });

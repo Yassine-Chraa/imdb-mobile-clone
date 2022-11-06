@@ -4,6 +4,7 @@ import {View,StyleSheet,Text} from 'react-native';
 import {normalize} from '../helpers/fontSize';
 import MoviesRow from '../components/MoviesRow';
 import Screen from '../components/Screen';
+import Colors from '../helpers/Colors';
 class TvShows extends Component {
   state = {
     popular: [],
@@ -85,9 +86,9 @@ const styles = StyleSheet.create({
   },
 
   titleBar: {
-    width: 30,
+    width: 50,
     height: 5,
-    backgroundColor: 'red',
+    backgroundColor: Colors.blue,
     marginTop: 2,
     marginBottom: 12,
     marginLeft: 10,

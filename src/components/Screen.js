@@ -8,6 +8,7 @@ import {
   StatusBar,
   SafeAreaView,
   Platform,
+  Text
 } from 'react-native';
 import {Icon, Header} from 'react-native-elements';
 import FastImage from 'react-native-fast-image';
@@ -46,6 +47,9 @@ class Screen extends Component {
                 onPress={() => navigation.toggleDrawer()}>
                 <FastImage source={MenuIcon} style={{width: 20, height: 20}} />
               </TouchableWithoutFeedback>
+            }
+            centerComponent={
+              <Text style={{fontFamily: 'Montserrat-Bold',fontSize: 18,fontWeight: 'bold'}}>Stream+</Text>
             }
             rightComponent={
               <Icon

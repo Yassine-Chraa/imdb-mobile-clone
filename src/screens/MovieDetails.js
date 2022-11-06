@@ -136,7 +136,7 @@ class MovieDetails extends Component {
                   }}>
                   <Icon name="star" size={20} color={'gold'} />
                   <Text style={styles.ratingText}>
-                    {movieData.vote_average}/10
+                    {movieData.vote_average.toFixed(2)}/10
                   </Text>
                 </View>
               </>
