@@ -26,7 +26,7 @@
 <br>
 
 ## :dart: About ##
-This is an Movies application build with React Native
+This is a Movies application build with React Native
 
 
 
