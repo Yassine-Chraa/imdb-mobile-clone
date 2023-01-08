@@ -30,6 +30,9 @@ This is a Movies application built with React Native
 
 
 
+https://user-images.githubusercontent.com/67695538/211216102-cb145980-c222-4bbe-bf18-af438e9927aa.mp4
+
+
 
 ## :rocket: Technologies ##
 
